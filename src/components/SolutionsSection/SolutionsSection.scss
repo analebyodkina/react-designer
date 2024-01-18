@@ -1,0 +1,42 @@
+@import  'src/Scss/vars.scss';
+@import 'src/Scss/mixins.scss';
+
+.solutions {
+    display: grid;    
+    gap: 27.5rem; 
+    margin-bottom: 22rem;   
+    @include tablet-small-768 {
+        gap: 22.6rem;        
+    }
+    &__row {
+        @include flex-between;
+        gap: 130px;
+        @include tablet-small-768 {
+            flex-direction: column-reverse;
+            gap: 64px;
+        }
+        &:nth-child(even) .solutions__img{
+            order: 2;
+            @include tablet-small-768 {
+                order: 1;
+            }
+        }
+        &:nth-child(even) .solutions__info {
+            order: 1;            
+        }
+    }
+    &__title {
+        @include tablet-small-768 {
+            margin-bottom: 32px;
+        }
+
+    }
+    &__desc {
+        @include text($ff, 3.2rem, 5.4rem, 700, $color-white);        
+        letter-spacing: -0.5px;
+    }    
+    &__info {        
+        max-width: 612px;
+        
+    }
+}

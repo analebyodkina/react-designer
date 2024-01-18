@@ -1,0 +1,22 @@
+@import  'src/Scss/vars.scss';
+@import 'src/Scss/mixins.scss';
+
+.contact {
+    margin-inline: auto;
+    text-align: center;
+    padding-bottom: 12.4rem;    
+    &__desc {
+        max-width: 521px;
+        margin: 24px 0 48px 0;
+        @include text($ff, 2.6rem, 3.8rem, 600, $color-grey);
+        text-align: center;
+        letter-spacing: -0.5px;
+        @include mobile-576 {
+            @include text($ff, 1.8rem, 2.6rem, 500, $color-grey);
+            max-width: 270px;
+        }
+    }
+    &__button {
+        display: inline-flex;        
+    }
+}

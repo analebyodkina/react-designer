@@ -1,0 +1,37 @@
+@import  'src/Scss/vars.scss';
+@import 'src/Scss/mixins.scss';
+.explore {
+    margin-bottom: 24rem;    
+    @include mobile-576 {
+        margin-bottom: 20rem;     
+    }    
+    &__title {
+        margin-bottom: 65px;
+        @include mobile-576 {
+            margin-bottom: 34px;
+        }
+    }
+    &__row {        
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;        
+        @include mobile-576 {
+            grid-template-columns: 1fr;
+           justify-items: center;
+        }
+    }
+    .row-card {
+        border-radius: 4px;
+        max-width: 400px;        
+        overflow: hidden;
+        transition: $transition;
+        img {
+            transition: transform .4s ease;
+        } 
+        &:hover {
+            img {
+                transform: scale(1.3);
+            }
+        } 
+    }
+}
