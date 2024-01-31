@@ -20,7 +20,7 @@ function WelcomeSection() {
               I help businesses and companies reach their goals by designing
               user-centric digital products & interactive experiences.
             </div>
-            <Button />
+            <Button aria-label="contact me button" />
             <div className="welcome-section__link">
                 <a href="/"><span><ArrowIcon /></span>
                 <span>Featured Work</span>                

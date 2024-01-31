@@ -30,7 +30,7 @@ function Header() {
   return (
     <header className="header">
       <div className="container header__container">
-          <a href="/" className="header__logo" role='link' aria-label='logo leading to home page'>
+          <a href="/" className="header__logo"  aria-label='logo leading to home page'>
             <LogoIcon />            
           </a>
 
