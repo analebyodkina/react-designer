@@ -38,7 +38,7 @@ function Header() {
           <nav>
           <ul className={`header__ul ${active ? 'active' : ''}`} id="headerUl">
               <li>
-                <Link to={'/'} className="header__a">Home              
+                <Link to={'/react-designer'} className="header__a">Home              
                 </Link> 
               </li>
               <li>
@@ -46,10 +46,10 @@ function Header() {
               </Link>            
               </li>            
               <li>         
-                <Link to={'/'} className="header__a">Contact              
+                <Link to={'/react-designer'} className="header__a">Contact  <span className="material-symbols-outlined icon-close" id="close" onClick={navToggle} >close</span>            
                 </Link> 
               </li>
-              <span className="material-symbols-outlined icon-close" id="close" onClick={navToggle} >close</span>
+              {/* <span className="material-symbols-outlined icon-close" id="close" onClick={navToggle} >close</span> */}
             </ul>
           </nav>
 

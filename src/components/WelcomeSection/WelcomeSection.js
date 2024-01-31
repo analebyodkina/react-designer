@@ -8,11 +8,13 @@ import ArrowIcon from "../Icons/ArrowIcon";
 
 function WelcomeSection() {
   return (
-    <div className="welcome-section container" data-aos="fade-up" data-aos-duration="1200">
+    <div className="welcome-section container" data-aos="fade-up"     
+    data-aos-duration="1300" >
       <div className="welcome-section__row">
           <div className="welcome-section__info">
             <h1 className="welcome-section__title">
-              Hi, I am Your Name A Product Designer based in City.
+              Hi, I am William <br />
+               A Product Designer based in City.
             </h1>
             <div className="welcome-section__desc">
               I help businesses and companies reach their goals by designing
