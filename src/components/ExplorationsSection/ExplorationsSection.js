@@ -16,22 +16,22 @@ export default function ExplorationsSection() {
             <h2 className="title explore__title">Visual Explorations</h2>
             <div className="explore__row">					
                     <div className="row-card" data-aos="flip-right" data-aos-duration="1200">
-                        <img src={ExploreImage1} alt="work example" />                    
+                        <img src={ExploreImage1} alt="work example" width={400} height={408} />                    
                     </div>
                     <div className="row-card" data-aos="flip-down" data-aos-duration="1300">
-                        <img src={ExploreImage2} alt="work example" />                    
+                        <img src={ExploreImage2} alt="work example" width={400} height={408} />                    
                     </div>
                     <div className="row-card" data-aos="flip-left" data-aos-duration="1200">
-                        <img src={ExploreImage3} alt="work example" />                    
+                        <img src={ExploreImage3} alt="work example" width={400} height={408} />                    
                     </div>
                     <div className="row-card" data-aos="flip-right" data-aos-duration="1200">
-                        <img src={ExploreImage4} alt="work example" />                    
+                        <img src={ExploreImage4} alt="work example" width={400} height={408} />                    
                     </div>
                     <div className="row-card" data-aos="flip-down" data-aos-duration="1300">
-                        <img src={ExploreImage5} alt="work example" />                    
+                        <img src={ExploreImage5} alt="work example" width={400} height={408} />                    
                     </div>
                     <div className="row-card" data-aos="flip-left" data-aos-duration="1200">
-                        <img src={ExploreImage6} alt="work example" />                    
+                        <img src={ExploreImage6} alt="work example" width={400} height={408} />                    
                     </div>
             </div>         
         </div>      

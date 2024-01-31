@@ -17,29 +17,29 @@ function WorkSection() {
       					
           <div className="row-card">              
               <picture>
-                <source srcSet={WorkImage1webp} type="image/webp" />                
-                <img src={WorkImage1} alt="work example" fetchpriority="low" loading="lazy" />   
+                <source srcSet={WorkImage1webp} type="image/webp" width={612} height={888}/>                
+                <img src={WorkImage1} alt="work example" fetchpriority="low" loading="lazy" width={612} height={888}/>   
               </picture>
               <span>InVersion</span>
 					</div>
           <div className="row-card">
           <picture>
-                <source srcSet={WorkImage2webp} type="image/webp" />                
-                <img src={WorkImage2} alt="work example" fetchpriority="low" loading="lazy" />   
+                <source srcSet={WorkImage2webp} type="image/webp" width={612} height={888}/>                
+                <img src={WorkImage2} alt="work example" fetchpriority="low" loading="lazy" width={612} height={888}/>   
               </picture>
             <span>InVersion</span>						
 					</div>
           <div className="row-card">
           <picture>
-                <source srcSet={WorkImage3webp} type="image/webp" />                
-                <img src={WorkImage3} alt="work example" fetchpriority="low" loading="lazy" />   
+                <source srcSet={WorkImage3webp} type="image/webp" width={612} height={888}/>                
+                <img src={WorkImage3} alt="work example" fetchpriority="low" loading="lazy" width={612} height={888}/>   
               </picture>	
             <span>InVersion</span>					
 					</div>
           <div className="row-card">
           <picture>
-                <source srcSet={WorkImage4webp} type="image/webp" />                
-                <img src={WorkImage4} alt="work example" fetchpriority="low" loading="lazy" />   
+                <source srcSet={WorkImage4webp} type="image/webp" width={612} height={888}/>                
+                <img src={WorkImage4} alt="work example" fetchpriority="low" loading="lazy" width={612} height={888}/>   
               </picture>
             <span>InVersion</span>						
 					</div>

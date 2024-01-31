@@ -30,7 +30,7 @@ function WelcomeSection() {
             
           </div>
           <div className="main-section__img">
-            <img src={userPhoto} alt="designer"/>       
+            <img src={userPhoto} alt="designer" width={400} height={400}/>       
           </div>
       </div>
       

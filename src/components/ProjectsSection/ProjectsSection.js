@@ -25,14 +25,14 @@ export default function ProjectsSection() {
             slidesPerView: 3,
           },          
         }} >
-      <SwiperSlide><img src={ProjectImage1} alt="project example" /></SwiperSlide>
-      <SwiperSlide><img src={ProjectImage2} alt="project example" /></SwiperSlide>
-      <SwiperSlide><img src={ProjectImage3} alt="project example" /></SwiperSlide>
-      <SwiperSlide><img src={ProjectImage2} alt="project example" /></SwiperSlide>
-      <SwiperSlide><img src={ProjectImage3} alt="project example" /></SwiperSlide>
-      <SwiperSlide><img src={ProjectImage2} alt="project example" /></SwiperSlide>
-      <SwiperSlide><img src={ProjectImage3} alt="project example" /></SwiperSlide>
-      <SwiperSlide><img src={ProjectImage2} alt="project example" /></SwiperSlide>
+      <SwiperSlide><img src={ProjectImage1} alt="project example" width={400} height={560} /></SwiperSlide>
+      <SwiperSlide><img src={ProjectImage2} alt="project example" width={400} height={560}/></SwiperSlide>
+      <SwiperSlide><img src={ProjectImage3} alt="project example" width={400} height={560}/></SwiperSlide>
+      <SwiperSlide><img src={ProjectImage2} alt="project example" width={400} height={560}/></SwiperSlide>
+      <SwiperSlide><img src={ProjectImage3} alt="project example" width={400} height={560}/></SwiperSlide>
+      <SwiperSlide><img src={ProjectImage2} alt="project example" width={400} height={560}/></SwiperSlide>
+      <SwiperSlide><img src={ProjectImage3} alt="project example" width={400} height={560}/></SwiperSlide>
+      <SwiperSlide><img src={ProjectImage2} alt="project example" width={400} height={560}/></SwiperSlide>
       ...
     </Swiper>
 
