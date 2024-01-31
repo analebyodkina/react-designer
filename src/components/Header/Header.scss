@@ -12,9 +12,7 @@
         @include flex-between;
         padding: 2rem 1.5rem 2rem 1rem;
     }
-    &__logo {
-        @include text($ff, 2rem, 2.7rem, 800, $color-text);
-        letter-spacing: -0.5px;
+    &__logo {        
         display: flex;
         align-items: center;
         gap: 11px;

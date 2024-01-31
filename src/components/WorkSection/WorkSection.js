@@ -12,19 +12,19 @@ function WorkSection() {
 			<div className="work__row row">
       					
           <div className="row-card">
-              <img src={WorkImage1} alt="work example" />
+              <img src={WorkImage1} alt="work example" fetchpriority="low" loading="lazy"/>
               <span>InVersion</span>
 					</div>
           <div className="row-card">
-            <img src={WorkImage2} alt="work example" />
+            <img src={WorkImage2} alt="work example" fetchpriority="low" loading="lazy"/>
             <span>InVersion</span>						
 					</div>
           <div className="row-card">
-            <img src={WorkImage3} alt="work example" />	
+            <img src={WorkImage3} alt="work example" fetchpriority="low" loading="lazy"/>	
             <span>InVersion</span>					
 					</div>
           <div className="row-card">
-            <img src={WorkImage4} alt="work example" />
+            <img src={WorkImage4} alt="work example" fetchpriority="low" loading="lazy"/>
             <span>InVersion</span>						
 					</div>
 

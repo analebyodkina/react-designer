@@ -30,9 +30,8 @@ function Header() {
   return (
     <header className="header">
       <div className="container header__container">
-          <a href="/" className="header__logo">
-            <LogoIcon />
-            <span>Logo Here</span>
+          <a href="/" className="header__logo" role='link' aria-label='logo leading to home page'>
+            <LogoIcon />            
           </a>
 
           <nav>
@@ -46,10 +45,10 @@ function Header() {
               </Link>            
               </li>            
               <li>         
-                <Link to={'/react-designer'} className="header__a">Contact  <span className="material-symbols-outlined icon-close" id="close" onClick={navToggle} >close</span>            
+                <Link to={'/react-designer'} className="header__a">Contact              
                 </Link> 
               </li>
-              {/* <span className="material-symbols-outlined icon-close" id="close" onClick={navToggle} >close</span> */}
+              <li><span className="material-symbols-outlined icon-close" id="close" onClick={navToggle} >close</span></li>
             </ul>
           </nav>
 
