@@ -13,7 +13,7 @@ function WorkSection() {
   return (
     <div className="work container"> 
     {/* <a name="down"></a>	     			 */}
-			<div className="work__row row">
+			<div className="work__row row" id="works">
       					
           <div className="row-card">              
               <picture>

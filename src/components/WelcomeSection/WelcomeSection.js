@@ -22,7 +22,7 @@ function WelcomeSection() {
             </div>
             <Button aria-label="contact me button" />
             <div className="welcome-section__link">
-                <a href="/"><span><ArrowIcon /></span>
+                <a href="#works"><span><ArrowIcon /></span>
                 <span>Featured Work</span>                
                 </a>
             </div>

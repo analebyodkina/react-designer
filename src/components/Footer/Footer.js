@@ -10,7 +10,7 @@ function Footer() {
   return (
     <div className="footer">
         <div className="container footer__container">
-            <div className="footer__copyright">Made by<span className="footer__span"> Your Name</span> — Copyright 
+            <div className="footer__copyright">Made by<span className="footer__span"> A.Lebjodkina</span> — Copyright 
             <span> {(new Date().getFullYear())}
             </span> 
             </div>
