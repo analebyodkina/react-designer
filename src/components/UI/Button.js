@@ -30,7 +30,7 @@ Modal.setAppElement('#root');
     <>
     <button className="btn" name="link" aria-label="contact me button" onClick={() => {openModal(); setIsModalOpen(true);}}> 
         <MailIcon /> 
-        hi@yourname.com
+        Contact me
         <div id="spin"></div>
     </button> 
     <Modal         

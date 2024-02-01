@@ -29,10 +29,9 @@ function Header() {
 
   return (
     <header className="header">
-      <div className="container header__container">
-          <a href="/" className="header__logo"  aria-label='logo leading to home page'>
-            <LogoIcon />            
-          </a>
+      <div className="container header__container">          
+          <Link to={'/react-designer'} className="header__logo" aria-label='logo leading to home page'><LogoIcon />               
+          </Link>
 
           <nav>
           <ul className={`header__ul ${active ? 'active' : ''}`} id="headerUl">
