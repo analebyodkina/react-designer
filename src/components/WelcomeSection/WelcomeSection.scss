@@ -9,6 +9,8 @@
     display: flex;
     justify-content: space-between;
     gap: 15px;
+    position: relative;
+    z-index: 1;
     @include tablet-992 {
       flex-direction: column-reverse;
       align-items: center;
