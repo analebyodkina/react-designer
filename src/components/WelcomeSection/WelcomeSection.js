@@ -29,7 +29,7 @@ function WelcomeSection() {
                       
             
           </div>
-          <div className="main-section__img">            
+          <div className="welcome-section__img">            
             <picture>
                 <source srcSet={userPhotoWebp} type="image/webp" width={400} height={400} fetchpriority="high"/>   
                 <source srcSet={userPhoto} type="image/png" width={400} height={400} fetchpriority="high"/>              
