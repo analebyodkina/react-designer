@@ -1,6 +1,8 @@
 import "./ProjectsSection.scss";
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 import 'swiper/css';
+
 
 import ProjectImage1 from "../../Assets/projects-img1.png";
 import ProjectImage2 from "../../Assets/projects-img2.png";
