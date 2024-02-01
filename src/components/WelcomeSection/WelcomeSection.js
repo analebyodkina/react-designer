@@ -1,5 +1,6 @@
 import "./WelcomeSection.scss";
 import userPhoto from '../../Assets/userPhoto.png';
+import userPhotoWebp from '../../Assets/userPhoto.webp';
 import Button from "../UI/Button";
 
 import React from 'react';
@@ -8,8 +9,7 @@ import ArrowIcon from "../Icons/ArrowIcon";
 
 function WelcomeSection() {
   return (
-    <div className="welcome-section container" data-aos="fade-up"     
-        data-aos-duration="1500" >
+    <div className="welcome-section container">
       <div className="welcome-section__row">
           <div className="welcome-section__info">
             <h1 className="welcome-section__title">
@@ -30,7 +30,11 @@ function WelcomeSection() {
             
           </div>
           <div className="main-section__img">
-            <img src={userPhoto} alt="designer" width={400} height={400}/>       
+            <img src={userPhoto} alt="designer" width={400} height={400}/>  
+            <picture>
+                <source srcSet={userPhotoWebp} type="image/webp" width={400} height={400}/>                
+                <img src={userPhoto} alt="designer's photo" width={400} height={400}/>   
+              </picture>     
           </div>
       </div>
       

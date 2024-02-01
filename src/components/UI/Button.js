@@ -28,7 +28,7 @@ Modal.setAppElement('#root');
   }
   return (
     <>
-    <button className="btn" role="link" aria-label="contact me button" onClick={() => {openModal(); setIsModalOpen(true);}}> 
+    <button className="btn" name="link" aria-label="contact me button" onClick={() => {openModal(); setIsModalOpen(true);}}> 
         <MailIcon /> 
         hi@yourname.com
         <div id="spin"></div>
