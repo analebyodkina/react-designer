@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-designer/static/css/main.b4ddeab9.css",
-    "main.js": "/react-designer/static/js/main.ef02e860.js",
+    "main.js": "/react-designer/static/js/main.d24067ce.js",
     "static/media/page2-office.png": "/react-designer/static/media/page2-office.cb599c7f7ad5c7023992.png",
     "static/media/page2-bg.png": "/react-designer/static/media/page2-bg.62c45943d491df79f2dd.png",
     "static/media/work-img3.png": "/react-designer/static/media/work-img3.bb8ed9fde35162cfff42.png",
@@ -21,16 +21,23 @@
     "static/media/explore-img3.png": "/react-designer/static/media/explore-img3.a766a591581cbcf74d24.png",
     "static/media/projects-img2.png": "/react-designer/static/media/projects-img2.32173ee135ed71131e69.png",
     "static/media/solution1.png": "/react-designer/static/media/solution1.39504e85a6409f18112b.png",
+    "static/media/userPhoto.webp": "/react-designer/static/media/userPhoto.82f0a4245de9d3b3de6b.webp",
+    "static/media/explore-img4.webp": "/react-designer/static/media/explore-img4.5ba636df46708f0f14e5.webp",
     "static/media/explore-img1.png": "/react-designer/static/media/explore-img1.26695d83fff4a88db3bd.png",
     "static/media/explore-img6.png": "/react-designer/static/media/explore-img6.8046a16314b6d7410ce4.png",
+    "static/media/explore-img3.webp": "/react-designer/static/media/explore-img3.64949303c1feefb69964.webp",
     "static/media/explore-img2.png": "/react-designer/static/media/explore-img2.79047847bccbf13379a7.png",
+    "static/media/explore-img1.webp": "/react-designer/static/media/explore-img1.4e05b4803b2b2c4eb0c9.webp",
     "static/media/explore-img5.png": "/react-designer/static/media/explore-img5.c66e0db11821f988d09d.png",
+    "static/media/explore-img2.webp": "/react-designer/static/media/explore-img2.b0f253ee456c1c45b548.webp",
+    "static/media/explore-img5.webp": "/react-designer/static/media/explore-img5.f856b3fd8bddef1a6951.webp",
+    "static/media/explore-img6.webp": "/react-designer/static/media/explore-img6.6d6e2a46d69c145bb672.webp",
     "index.html": "/react-designer/index.html",
     "main.b4ddeab9.css.map": "/react-designer/static/css/main.b4ddeab9.css.map",
-    "main.ef02e860.js.map": "/react-designer/static/js/main.ef02e860.js.map"
+    "main.d24067ce.js.map": "/react-designer/static/js/main.d24067ce.js.map"
   },
   "entrypoints": [
     "static/css/main.b4ddeab9.css",
-    "static/js/main.ef02e860.js"
+    "static/js/main.d24067ce.js"
   ]
 }
