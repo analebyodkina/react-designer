@@ -19,7 +19,7 @@ function ConclusionSection() {
             <img src={ConclusionImg} alt="final bg" />
         </div>
         <div className="conclusion__link">
-            <a href="/">Next Case</a>
+            <a href="##">Next Case</a>
         </div>
         		
 	</div>    
