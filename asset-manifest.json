@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-designer/static/css/main.74a84656.css",
-    "main.js": "/react-designer/static/js/main.1f4b4ac1.js",
+    "main.js": "/react-designer/static/js/main.2fa7ce0f.js",
     "static/media/page2-office.png": "/react-designer/static/media/page2-office.cb599c7f7ad5c7023992.png",
     "static/media/page2-bg.png": "/react-designer/static/media/page2-bg.62c45943d491df79f2dd.png",
     "static/media/work-img3.png": "/react-designer/static/media/work-img3.bb8ed9fde35162cfff42.png",
@@ -34,10 +34,10 @@
     "static/media/explore-img6.webp": "/react-designer/static/media/explore-img6.6d6e2a46d69c145bb672.webp",
     "index.html": "/react-designer/index.html",
     "main.74a84656.css.map": "/react-designer/static/css/main.74a84656.css.map",
-    "main.1f4b4ac1.js.map": "/react-designer/static/js/main.1f4b4ac1.js.map"
+    "main.2fa7ce0f.js.map": "/react-designer/static/js/main.2fa7ce0f.js.map"
   },
   "entrypoints": [
     "static/css/main.74a84656.css",
-    "static/js/main.1f4b4ac1.js"
+    "static/js/main.2fa7ce0f.js"
   ]
 }
