@@ -23,15 +23,17 @@ export default function ProjectsSection() {
        
         pagination={true}
         slidesPerView={1}
-        spaceBetween={24}
+        spaceBetween={10}
         grabCursor={true}
         loop={true}
         breakpoints={{
           576: {
             slidesPerView: 2,
+            spaceBetween: 24
           },
           992: {
             slidesPerView: 3,
+            spaceBetween: 24
           },
         }}
       >
