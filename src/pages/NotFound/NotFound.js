@@ -17,7 +17,8 @@ function NotFound() {
           </Link> and try from there.
           </p>
         </div>
-      </div>
+      </div>"
+      "
     </>
   );
 }

@@ -15,28 +15,28 @@ function WorkSection() {
     {/* <a name="down"></a>	     			 */}
 			<div className="work__row row" id="works">
       					
-          <div className="row-card">              
+          <div className="row-card" data-aos="zoom-in-up" data-aos-duration="1300">               
               <picture>
                 <source srcSet={WorkImage1webp} type="image/webp" width={612} height={888}/>                
                 <img src={WorkImage1} alt="work example" fetchpriority="low" loading="lazy" width={612} height={888}/>   
               </picture>
               <span>InVersion</span>
 					</div>
-          <div className="row-card">
+          <div className="row-card" data-aos="zoom-in-left" data-aos-duration="1400">
           <picture>
                 <source srcSet={WorkImage2webp} type="image/webp" width={612} height={888}/>                
                 <img src={WorkImage2} alt="work example" fetchpriority="low" loading="lazy" width={612} height={888}/>   
               </picture>
             <span>InVersion</span>						
 					</div>
-          <div className="row-card">
+          <div className="row-card" data-aos="zoom-in-up" data-aos-duration="1300">
           <picture>
                 <source srcSet={WorkImage3webp} type="image/webp" width={612} height={888}/>                
                 <img src={WorkImage3} alt="work example" fetchpriority="low" loading="lazy" width={612} height={888}/>   
               </picture>	
             <span>InVersion</span>					
 					</div>
-          <div className="row-card">
+          <div className="row-card" data-aos="zoom-in-left" data-aos-duration="1400">
           <picture>
                 <source srcSet={WorkImage4webp} type="image/webp" width={612} height={888}/>                
                 <img src={WorkImage4} alt="work example" fetchpriority="low" loading="lazy" width={612} height={888}/>   

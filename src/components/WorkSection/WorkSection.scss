@@ -21,12 +21,12 @@
     position: relative;
     transition: $transition;
     cursor: pointer;
-    &:nth-child(2n) {
-      transform: translateY(138px);
-      @include mobile-576 {
-        transform: translateY(0);
-      }
-    }
+    // &:nth-child(2n) {
+    //   transform: translateY(138px);
+    //   @include mobile-576 {
+    //     transform: translateY(0);
+    //   }
+    // }
     span {
       transition: $transition;
       position: absolute;
