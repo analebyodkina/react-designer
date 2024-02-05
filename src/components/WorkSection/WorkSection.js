@@ -15,7 +15,7 @@ function WorkSection() {
     {/* <a name="down"></a>	     			 */}
 			<div className="work__row row" id="works">
       					
-          <div className="row-card" data-aos="zoom-in-right" data-aos-duration="1300">               
+          <div className="row-card" data-aos="zoom-in-up" data-aos-duration="1300">               
               <picture>
                 <source srcSet={WorkImage1webp} type="image/webp" width={612} height={888}/>                
                 <img src={WorkImage1} alt="work example" fetchpriority="low" loading="lazy" width={612} height={888}/>   
@@ -29,7 +29,7 @@ function WorkSection() {
               </picture>
             <span>InVersion</span>						
 					</div>
-          <div className="row-card" data-aos="zoom-in-right" data-aos-duration="1300">
+          <div className="row-card" data-aos="zoom-in-up" data-aos-duration="1300">
           <picture>
                 <source srcSet={WorkImage3webp} type="image/webp" width={612} height={888}/>                
                 <img src={WorkImage3} alt="work example" fetchpriority="low" loading="lazy" width={612} height={888}/>   
