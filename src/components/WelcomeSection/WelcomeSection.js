@@ -34,7 +34,9 @@ function WelcomeSection() {
                 <source srcSet={userPhotoWebp} type="image/webp" width={400} height={400} fetchpriority="high"/>   
                 <source srcSet={userPhoto} type="image/png" width={400} height={400} fetchpriority="high"/>              
                 <img src={userPhoto} alt="designer's photo" width={400} height={400} fetchpriority="high"/>   
-              </picture>     
+              </picture>  
+              <div></div>
+                 
           </div>
       </div>
       
