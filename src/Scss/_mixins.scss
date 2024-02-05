@@ -1,4 +1,4 @@
-@mixin text ($ff, $fz, $lh, $fw, $color) {
+@mixin text($ff, $fz, $lh, $fw, $color) {
   font-family: $ff;
   font-size: $fz;
   line-height: $lh;
@@ -14,25 +14,27 @@
     height: 2px;
     width: 0%;
     position: relative;
-    top: 2px;			
+    top: 2px;
   }
-  &:hover:after, &:focus:after {
+  &:hover:after,
+  &:focus:after {
     width: 100%;
-  }         
+  }
 }
-@mixin press {  
+@mixin press {
   &:active {
-    animation: scale-down-center 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both normal;
+    animation: scale-down-center 0.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both
+      normal;
     @keyframes scale-down-center {
-        0% {
-          -webkit-transform: scale(1);
-                  transform: scale(1);
-        }
-        100% {
-          -webkit-transform: scale(0.93);
-                  transform: scale(0.93);
-        }
+      0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
       }
+      100% {
+        -webkit-transform: scale(0.93);
+        transform: scale(0.93);
+      }
+    }
   }
 }
 @mixin flex-between {
@@ -63,4 +65,3 @@
     @content;
   }
 }
-

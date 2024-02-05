@@ -1,0 +1,49 @@
+@import "src/Scss/vars.scss";
+@import "src/Scss/mixins.scss";
+
+.mainbox {
+  margin: 50px auto;
+  height: 100vh;
+  max-width: 600px;
+  width: 100%;
+  position: relative;
+  padding: 0 15px;
+}
+
+.err {
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 11rem;
+  position: absolute;
+  left: 20%;
+  top: 8%;
+}
+
+.far {
+  position: absolute;
+  font-size: 8.5rem;
+  left: 42%;
+  top: 15%;
+  color: #ffffff;
+}
+
+.err2 {
+  color: #ffffff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 11rem;
+  position: absolute;
+  left: 68%;
+  top: 8%;
+}
+
+.msg {
+  @include text($ff, 2rem, 3rem, 600, $color-grey);
+  letter-spacing: -0.5px;
+  padding-top: 25rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

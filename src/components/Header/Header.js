@@ -44,7 +44,7 @@ function Header() {
               </Link>            
               </li>            
               <li>         
-                <Link to={'/react-designer'} className="header__a"> Contact              
+                <Link to={'/does-not-exist'} className="header__a"> Contact              
                 </Link> 
               </li>
               <li><span className="material-symbols-outlined icon-close" id="close" onClick={navToggle} >close</span></li>
