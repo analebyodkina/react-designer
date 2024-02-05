@@ -21,12 +21,12 @@
   @include tablet-992 {
     max-width: 738px;
   }
-//   @include tablet-small-768 {
-//     max-width: 546px;
-//   }
-//   @include tablet-small-768 {
-//     max-width: 320px;
-//   }
+  @include tablet-small-768 {
+    max-width: 546px;
+  }
+  @include mobile-576 {
+    max-width: 320px;
+  }
 }
 .swiper-slide {
   max-width: 400px;
