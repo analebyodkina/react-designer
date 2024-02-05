@@ -16,7 +16,7 @@
   font-size: 11rem;
   position: absolute;
   left: 20%;
-  top: 8%;
+  top: 13%;
 }
 
 .far {
@@ -33,17 +33,19 @@
   font-size: 11rem;
   position: absolute;
   left: 68%;
-  top: 8%;
+  top: 13%;
 }
 
 .msg {
   @include text($ff, 2rem, 3rem, 600, $color-grey);
   letter-spacing: -0.5px;
-  padding-top: 25rem;
+  padding-top: 29rem;
   text-align: center;
 }
 
 a {
   text-decoration: none;
   color: white;
+  @include hover-underline;
+  display: inline-block;
 }

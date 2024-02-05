@@ -1,4 +1,5 @@
 import "./NotFound.scss";
+import { Link, useLocation } from 'react-router-dom';
 
 
 function NotFound() {
@@ -12,7 +13,8 @@ function NotFound() {
           Maybe this page moved? Got deleted? Is hiding out in quarantine? Never
           existed in the first place?
           <p>
-            Let's go <a href="#">home</a> and try from there.
+            Let's go <Link to={'/react-designer'} aria-label='link to home page'>home              
+          </Link> and try from there.
           </p>
         </div>
       </div>
