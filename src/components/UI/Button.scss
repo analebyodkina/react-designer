@@ -70,6 +70,7 @@
   &__button {
     border: 0;
     outline: 0;
+    cursor: pointer;
     align-self: center;
     @include text($ff, 1.8rem, 2.5rem, 600, $color-white);
     background: $color-btn;

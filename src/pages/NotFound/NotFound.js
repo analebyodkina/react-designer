@@ -13,7 +13,7 @@ function NotFound() {
           Maybe this page moved? Got deleted? Is hiding out in quarantine? Never
           existed in the first place?
           <p>
-            Let's go <Link to={'/react-designer'} aria-label='link to home page'>home              
+            Let's go <Link to={'/react-designer'} className="err__a" aria-label='link to home page'>home              
           </Link> and try from there.
           </p>
         </div>
